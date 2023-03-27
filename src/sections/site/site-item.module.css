@@ -1,0 +1,47 @@
+.site_item {
+  width: 12000;
+  height: 540px;
+  display: flex;
+  align-items: center;
+  color: var(--white);
+  gap: 80px;
+}
+
+.site_item__image {
+  border-radius: var(--border-radius);
+  object-fit: cover;
+}
+
+.site_item__content {
+  width: 720px;
+  height: 571px;
+}
+
+.site_content__title {
+  width: 720px;
+  height: 330px;
+  left: 600px;
+  top: 3351px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 66px;
+  text-align: left;
+}
+
+.site_item__group {}
+
+.site_item__author {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.site_item__major {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--secondary-color);
+  text-transform: capitalize;
+}

@@ -1,0 +1,32 @@
+.wrapper {
+  min-height: 100vh;
+}
+
+.sites {
+  width: 1200px;
+  height: 571px;
+}
+
+
+.sites_control {
+  right: 20px;
+  top: 680px;
+}
+
+.sites_arrow {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-size: 44px;
+}
+
+.sites_arrow__left {
+  filter: invert(0.95);
+}
+
+.sites_arrow__right {
+  filter: invert(0.95);
+}

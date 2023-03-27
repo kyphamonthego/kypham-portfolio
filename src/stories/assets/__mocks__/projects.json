@@ -1,0 +1,38 @@
+[
+  {
+    "title": "VPN Mobile App",
+    "varion": "Mobile App",
+    "imageUrl": "vpn-mobile-app.svg",
+    "slug": "vpn-mobile-app"
+  },
+  {
+    "title": "Streaming Mobile App",
+    "varion": "Mobile App",
+    "imageUrl": "stream-mobile-app.svg",
+    "slug": "stream-mobile-app"
+  },
+  {
+    "title": "Creative Digital Agency",
+    "varion": "Landing Page",
+    "imageUrl": "creative-digital-agency.svg",
+    "slug": "creative-digital-agency"
+  },
+  {
+    "title": "Podcast Mobile App",
+    "varion": "Mobile App",
+    "imageUrl": "podcast-mobile-app.svg",
+    "slug": "podcast-mobile-app"
+  },
+  {
+    "title": "Multimedia Design Platform",
+    "varion": "Web Design",
+    "imageUrl": "multimedia-design-platform.svg",
+    "slug": "multimedia-design-platform"
+  },
+  {
+    "title": "Parking Mobile App",
+    "varion": "Mobile App",
+    "imageUrl": "parking-mobile-app.svg",
+    "slug": "parking-mobile-app"
+  }
+]

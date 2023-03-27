@@ -1,0 +1,42 @@
+@import 'styles/global.scss';
+.wrapper {
+  width: 100%;
+  height: auto;
+  @include feGaussianBlur;
+}
+
+.kypham-nav {
+  width: fit-content;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+
+  &__item {
+    text-transform: capitalize;
+    cursor: pointer;
+
+    @include font-source-sans(
+      $para-18-font-size,
+      $--white-secondary,
+      $regular-font-weight,
+      2
+    );
+    &--small {
+      font-size: $para-16-font-size;
+    }
+    &--medium {
+      font-size: $para-18-font-size;
+    }
+    &--large {
+      font-size: $para-20-font-size;
+    }
+    &--light {
+      color: $--black-primary;
+    }
+    &--dark {
+      color: $--white-secondary;
+    }
+  }
+}

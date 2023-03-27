@@ -1,0 +1,95 @@
+.wrapper {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-height: 100vh;
+}
+
+.contact {
+  width: 1200px;
+  height: 571px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__info {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.contact_btn {
+  display: flex;
+  align-items: center;
+}
+
+.contact_title {
+  width: 692px;
+  height: 279px;
+  font-weight: 600;
+  font-size: 62px;
+  line-height: 93px;
+  color: var(--white);
+}
+
+.contact_me {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--primary-color);
+  border-bottom: 1px solid var(--primary-color);
+  display: inline-block;
+  padding-bottom: 6px;
+  font-family: sans-serif;
+}
+
+.contact_us__arrow {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--primary-color);
+}
+
+.contact_image {
+  border-radius: var(--border-radius);
+  object-fit: cover;
+}
+
+.contact_follow {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 24px;
+  /* position: absolute; */
+  top: 700px;
+}
+
+.contact_follow__label {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--white);
+}
+
+.contact_follow__socials {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.contact_item {
+  width: 46px;
+  height: 46px;
+}
+
+.contact_item:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.2px);
+  -webkit-backdrop-filter: blur(1.2px);
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Website Design",
+    "description": "",
+    "value": 80,
+    "imageUrl": "website-design.svg",
+    "slug": "web-design"
+  },
+  {
+    "title": "Mobile App Design",
+    "description": "",
+    "value": 76,
+    "imageUrl": "mobile-app-design.svg",
+    "slug": "mobile-app-design"
+  },
+  {
+    "title": "Design System",
+    "description": "",
+    "value": 32,
+    "imageUrl": "design-system.svg",
+    "slug": "design-system"
+  },
+];

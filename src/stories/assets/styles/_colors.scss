@@ -1,0 +1,19 @@
+// Color Palette
+$--white-primary: #f0f2f5;
+$--white-secondary: #ffffff;
+$--black-primary: #161513;
+$--black-secondary: #1c1c22;
+$--gradient-primary: #b16cea;
+$--gradient-secondary: #ff5e69;
+$--gradient-third: #ff8a56;
+$--gradient-four: #ffa84b;
+$--gray-primary: #bababa;
+$--gradient-primary: linear-gradient(
+  to right,
+  $--gradient-primary 0%,
+  $--gradient-secondary 25%,
+  $--gradient-third 50%,
+  $--gradient-four 100%
+);
+$--background-light: #f0f2f5;
+$--background-dark: #1c1c22;

@@ -1,0 +1,31 @@
+// Themes
+$themes: (
+  light: (
+    // Body
+    backgroundColor: $--white-primary,
+    // Text
+    titleColor: $--black-primary,
+    paraColor: $--black-primary,
+    // Button
+    buttonTextColor: $--white-secondary,
+    buttonBackground: $--black-primary,
+    buttonBackgroundGradient: $--gradient-primary,
+    // Tag
+    tagBackgroundColor: $--white-secondary,
+    tagTextColor: $--black-primary,
+  ),
+  dark: (
+    // Body
+    backgroundColor: $--black-secondary,
+    // Text
+    titleColor: $--white-secondary,
+    paraColor: $--white-secondary,
+    // Button
+    buttonTextColor: $--black-primary,
+    buttonBackground: $--white-secondary,
+    buttonBackgroundGradient: $--gradient-primary,
+    // Tag
+    tagBackgroundColor: $--black-primary,
+    tagTextColor: $--white-secondary,
+  ),
+);

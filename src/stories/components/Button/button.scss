@@ -1,0 +1,35 @@
+@import 'styles/global.scss';
+.kypham-button {
+  @include font-source-sans(
+    $btn-16-font-size,
+    $--white-secondary,
+    $regular-font-weight,
+    2
+  );
+  border: 0;
+  border-radius: $full-border-radius;
+  cursor: pointer;
+  display: inline-block;
+  &--primary {
+    background-color: $--black-primary;
+  }
+  &--secondary {
+    color: $--black-primary;
+    background-color: $--white-secondary;
+  }
+  &--gradient {
+    background: $--gradient-primary;
+  }
+  &--small {
+    font-size: $btn-12-font-size;
+    padding: 10px 16px;
+  }
+  &--medium {
+    font-size: $btn-14-font-size;
+    padding: 11px 20px;
+  }
+  &--large {
+    font-size: $btn-16-font-size;
+    padding: 12px 24px;
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Service",
+    "slug": "service",
+    "url": "servic"
+  },
+  {
+    "name": "Portfolio",
+    "slug": "portfolio",
+    "url": "portfoli"
+  },
+  {
+    "name": "Sites",
+    "slug": "sites",
+    "url": "site"
+  },
+  {
+    "name": "Contact",
+    "slug": "contact",
+    "url": "contac"
+  },
+  {
+    "name": "About",
+    "slug": "about",
+    "url": "about"
+  },
+  {
+    "name": "Blog",
+    "slug": "blog",
+    "url": "blog"
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@": ["./src/*"],
+      "assets/*": ["./src/stories/assets/*"],
+      "components/*": ["./src/stories/components/*"],
+      "fonts/*": ["./src/stories/assets/fonts/*"],
+      "icons/*": ["./src/stories/assets/icons/*"],
+      "images/*": ["./src/stories/assets/images/*"],
+      "styles/*": ["./src/stories/assets/styles/*"],
+      "types/*": ["./src/types/*"],
+      "constants/*": ["./src/constants/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/stories/assets/__mocks__/*.json",
+    "src/stories/components/**/*.tsx"
+  ],
+  "exclude": ["node_modules"]
+}
