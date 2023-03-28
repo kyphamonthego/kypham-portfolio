@@ -51,8 +51,6 @@ export const parameters = {
         },
       ],
     },
-    // Axe's options parameter
-    options: {},
     // Optional flag to prevent the automatic check
     manual: true,
   },

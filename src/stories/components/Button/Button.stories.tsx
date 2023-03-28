@@ -46,7 +46,7 @@ Primary.parameters = {
 };
 Primary.args = {
   primary: true,
-  label: 'Button',
+  label: 'GET IN TOUCH',
 };
 
 export const Secondary = Template.bind({});

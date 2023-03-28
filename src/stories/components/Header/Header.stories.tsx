@@ -29,7 +29,7 @@ const Template: ComponentStory<typeof Header> = (args) => <Header {...args} />;
 
 export const HeaderPrimary = Template.bind({});
 HeaderPrimary.args = {
-  colorTheme: ThemeType.LIGHT,
+  colorTheme: ThemeType.DARK,
 };
 
 HeaderPrimary.parameters = {

@@ -13,7 +13,6 @@ module.exports = {
     '@storybook/addon-viewport',
     'storybook-addon-designs',
     '@storybook/addon-a11y',
-    '@storybook/addon-interactions',
     '@storybook/addon-coverage',
   ],
   framework: {

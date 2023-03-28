@@ -19,7 +19,7 @@
     "@storybook/addons": "^6.5.16",
     "@storybook/nextjs": "^7.0.0-rc.6",
     "@storybook/theming": "^6.5.16",
-    "@types/node": "18.14.6",
+    "@types/node": "^18.15.10",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
     "eslint": "8.35.0",

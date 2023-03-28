@@ -1,9 +1,22 @@
 # syntax=docker/dockerfile:1
    
+# Select reference image
 FROM node:18-alpine
-WORKDIR /src/app
+
+# This is optional. Sets the level of logging that you see
+ENV NPM_CONFIG_LOGLEVEL warn
+
+# Create app directory
+WORKDIR /usr/src/app
+
+# Copy project files into the docker image
 COPY . .
-RUN yarn install --production
-RUN npm run build
-CMD ["npm", "dev"]
-EXPOSE 3000
+
+# Install app dependencies
+RUN yarn install --no-progress
+
+# Make port 9001 available
+EXPOSE 9001
+
+# run storybook app
+CMD ["yarn", "run", "storybook"]
