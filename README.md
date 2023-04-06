@@ -1,4 +1,9 @@
 # Setup project
+
+```bash
+npm install
+```
+
 ```bash
 npm run storybook
 ```
