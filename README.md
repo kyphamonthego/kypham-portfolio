@@ -1,6 +1,6 @@
 # Setup project
 ```bash
-  npm run storybook
+npm run storybook
 ```
 # Storybook load local image
 
