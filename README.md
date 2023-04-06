@@ -1,3 +1,7 @@
+# Setup project
+```bash
+  npm run storybook
+```
 # Storybook load local image
 
 ```json
